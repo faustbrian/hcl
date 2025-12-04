@@ -1,0 +1,63 @@
+{
+    "name": "cline/hcl",
+    "description": "HCL (HashiCorp Configuration Language) parser for PHP",
+    "license": "MIT",
+    "keywords": [
+        "php",
+        "hcl",
+        "hashicorp",
+        "parser",
+        "configuration",
+        "terraform"
+    ],
+    "authors": [
+        {
+            "name": "Brian Faust",
+            "email": "brian@cline.sh"
+        }
+    ],
+    "require": {
+        "php": "^8.4.0",
+        "illuminate/support": "*"
+    },
+    "require-dev": {
+        "cline/coding-standard": "^1.5.6",
+        "phpstan/phpstan": "^2.1",
+        "symfony/var-dumper": "^7.4.0"
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "Cline\\Hcl\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true,
+            "ergebnis/composer-normalize": true,
+            "pestphp/pest-plugin": true
+        }
+    },
+    "scripts": {
+        "lint": "vendor/bin/ecs check --fix",
+        "refactor": "rector",
+        "test": [
+            "@test:lint",
+            "@test:type-coverage",
+            "@test:unit",
+            "@test:types",
+            "@test:refactor"
+        ],
+        "test:lint": "vendor/bin/ecs check",
+        "test:refactor": "rector --dry-run",
+        "test:type-coverage": "pest --min=90 --type-coverage",
+        "test:types": "phpstan",
+        "test:unit": "pest --min=90 --coverage"
+    }
+}
