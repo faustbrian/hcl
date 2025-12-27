@@ -1,8 +1,3 @@
----
-title: Validation
-description: Validate HCL configuration files and get detailed diagnostics.
----
-
 Validate HCL configuration files and get detailed diagnostics.
 
 **Use case:** Linting configuration files, providing user feedback in editors, or validating input before processing.

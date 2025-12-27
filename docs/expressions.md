@@ -1,8 +1,3 @@
----
-title: Expressions
-description: Advanced expression handling in the HCL parser.
----
-
 Advanced expression handling in the HCL parser.
 
 **Use case:** Parsing HCL files with complex expressions, conditionals, and transformations.

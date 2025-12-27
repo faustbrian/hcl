@@ -1,8 +1,3 @@
----
-title: Getting Started
-description: Parse HCL (HashiCorp Configuration Language) content in PHP.
----
-
 Parse HCL (HashiCorp Configuration Language) content in PHP.
 
 **Use case:** Reading Terraform, Nomad, Consul, or any HCL-based configuration files in your PHP application.

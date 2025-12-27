@@ -1,8 +1,3 @@
----
-title: HCL Syntax Reference
-description: Complete reference for HCL syntax supported by this parser.
----
-
 ## Attributes
 
 Simple key-value pairs:
