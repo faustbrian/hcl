@@ -21,9 +21,9 @@
         "illuminate/support": "*"
     },
     "require-dev": {
-        "cline/coding-standard": "^1.5.8",
-        "phpstan/phpstan": "^2.1.32",
-        "symfony/var-dumper": "^7.4.0"
+        "cline/coding-standard": "^1.6.2",
+        "phpstan/phpstan": "^2.1.33",
+        "symfony/var-dumper": "^6.0|^7.0"
     },
     "minimum-stability": "stable",
     "prefer-stable": true,
