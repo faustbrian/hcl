@@ -1,15 +1,17 @@
 ## Table of Contents
 
-1. Getting Started (`cookbooks/getting-started.md`)
-2. HCL Syntax (`cookbooks/hcl-syntax.md`)
-3. Expressions (`cookbooks/expressions.md`)
-4. JSON Conversion (`cookbooks/json-conversion.md`)
-5. Validation (`cookbooks/validation.md`)
-6. Overview (`docs/README.md`)
-7. Expressions (`docs/expressions.md`)
-8. Hcl Syntax (`docs/hcl-syntax.md`)
-9. Json Conversion (`docs/json-conversion.md`)
-10. Validation (`docs/validation.md`)
+1. [Getting Started](#doc-cookbooks-getting-started) (`cookbooks/getting-started.md`)
+2. [HCL Syntax](#doc-cookbooks-hcl-syntax) (`cookbooks/hcl-syntax.md`)
+3. [Expressions](#doc-cookbooks-expressions) (`cookbooks/expressions.md`)
+4. [JSON Conversion](#doc-cookbooks-json-conversion) (`cookbooks/json-conversion.md`)
+5. [Validation](#doc-cookbooks-validation) (`cookbooks/validation.md`)
+6. [Overview](#doc-docs-readme) (`docs/README.md`)
+7. [Expressions](#doc-docs-expressions) (`docs/expressions.md`)
+8. [Hcl Syntax](#doc-docs-hcl-syntax) (`docs/hcl-syntax.md`)
+9. [Json Conversion](#doc-docs-json-conversion) (`docs/json-conversion.md`)
+10. [Validation](#doc-docs-validation) (`docs/validation.md`)
+<a id="doc-cookbooks-getting-started"></a>
+
 # Getting Started
 
 Parse HCL (HashiCorp Configuration Language) content in PHP.
@@ -181,10 +183,12 @@ try {
 
 ## Next Steps
 
-- **[HCL Syntax](hcl-syntax.md)** - Complete HCL syntax reference
-- **[Expressions](expressions.md)** - Operators, conditionals, and for expressions
-- **[JSON Conversion](json-conversion.md)** - Convert between HCL and JSON
-- **[Validation](validation.md)** - Validate HCL configuration files
+- **[HCL Syntax](#doc-cookbooks-hcl-syntax)** - Complete HCL syntax reference
+- **[Expressions](#doc-cookbooks-expressions)** - Operators, conditionals, and for expressions
+- **[JSON Conversion](#doc-cookbooks-json-conversion)** - Convert between HCL and JSON
+- **[Validation](#doc-cookbooks-validation)** - Validate HCL configuration files
+
+<a id="doc-cookbooks-hcl-syntax"></a>
 
 # HCL Syntax Reference
 
@@ -509,8 +513,10 @@ password = sensitive("secret123")
 
 ## Next Steps
 
-- **[Expressions](expressions.md)** - Advanced expression handling
-- **[JSON Conversion](json-conversion.md)** - Convert between HCL and JSON
+- **[Expressions](#doc-cookbooks-expressions)** - Advanced expression handling
+- **[JSON Conversion](#doc-cookbooks-json-conversion)** - Convert between HCL and JSON
+
+<a id="doc-cookbooks-expressions"></a>
 
 # Expressions
 
@@ -848,8 +854,10 @@ HCL;
 
 ## Next Steps
 
-- **[JSON Conversion](json-conversion.md)** - Convert between HCL and JSON
-- **[Validation](validation.md)** - Validate HCL configuration
+- **[JSON Conversion](#doc-cookbooks-json-conversion)** - Convert between HCL and JSON
+- **[Validation](#doc-cookbooks-validation)** - Validate HCL configuration
+
+<a id="doc-cookbooks-json-conversion"></a>
 
 # JSON Conversion
 
@@ -1217,8 +1225,10 @@ $response = Http::withBody($json, 'application/json')
 
 ## Next Steps
 
-- **[Validation](validation.md)** - Validate HCL configuration files
-- **[Getting Started](getting-started.md)** - Basic usage guide
+- **[Validation](#doc-cookbooks-validation)** - Validate HCL configuration files
+- **[Getting Started](#doc-cookbooks-getting-started)** - Basic usage guide
+
+<a id="doc-cookbooks-validation"></a>
 
 # Validation
 
@@ -1534,8 +1544,10 @@ Use parsing when you want to:
 
 ## Next Steps
 
-- **[Getting Started](getting-started.md)** - Basic usage guide
-- **[HCL Syntax](hcl-syntax.md)** - Complete syntax reference
+- **[Getting Started](#doc-cookbooks-getting-started)** - Basic usage guide
+- **[HCL Syntax](#doc-cookbooks-hcl-syntax)** - Complete syntax reference
+
+<a id="doc-docs-readme"></a>
 
 Parse HCL (HashiCorp Configuration Language) content in PHP.
 
@@ -1703,6 +1715,8 @@ try {
     // Includes line and column information
 }
 ```
+
+<a id="doc-docs-expressions"></a>
 
 Advanced expression handling in the HCL parser.
 
@@ -2036,6 +2050,8 @@ result = 2 + 3 * 4 > 10 && true || false
 HCL;
 ```
 
+<a id="doc-docs-hcl-syntax"></a>
+
 ## Attributes
 
 Simple key-value pairs:
@@ -2352,6 +2368,8 @@ encoded = base64encode("data")
 password = sensitive("secret123")
 # { "__function__": "sensitive", "__args__": ["secret123"] }
 ```
+
+<a id="doc-docs-json-conversion"></a>
 
 Convert between HCL and JSON formats for interoperability.
 
@@ -2680,6 +2698,8 @@ $json = Hcl::toJson(file_get_contents('app.hcl'));
 $response = Http::withBody($json, 'application/json')
     ->post('https://api.example.com/config');
 ```
+
+<a id="doc-docs-validation"></a>
 
 Validate HCL configuration files and get detailed diagnostics.
 

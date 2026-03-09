@@ -19,11 +19,11 @@ composer require cline/hcl
 
 ## Documentation
 
-- **[Getting Started](cookbooks/getting-started.md)** - Installation and basic usage
-- **[HCL Syntax](cookbooks/hcl-syntax.md)** - Complete syntax reference
-- **[Expressions](cookbooks/expressions.md)** - Operators, conditionals, and for expressions
-- **[JSON Conversion](cookbooks/json-conversion.md)** - Convert between HCL and JSON
-- **[Validation](cookbooks/validation.md)** - Validate configuration files
+- **[Getting Started](DOCS.md#doc-cookbooks-getting-started)** - Installation and basic usage
+- **[HCL Syntax](DOCS.md#doc-cookbooks-hcl-syntax)** - Complete syntax reference
+- **[Expressions](DOCS.md#doc-cookbooks-expressions)** - Operators, conditionals, and for expressions
+- **[JSON Conversion](DOCS.md#doc-cookbooks-json-conversion)** - Convert between HCL and JSON
+- **[Validation](DOCS.md#doc-cookbooks-validation)** - Validate configuration files
 
 ## Change log
 
