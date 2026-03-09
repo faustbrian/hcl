@@ -1,15 +1,15 @@
 ## Table of Contents
 
-1. [Getting Started](#doc-cookbooks-getting-started) (`cookbooks/getting-started.md`)
-2. [HCL Syntax](#doc-cookbooks-hcl-syntax) (`cookbooks/hcl-syntax.md`)
-3. [Expressions](#doc-cookbooks-expressions) (`cookbooks/expressions.md`)
-4. [JSON Conversion](#doc-cookbooks-json-conversion) (`cookbooks/json-conversion.md`)
-5. [Validation](#doc-cookbooks-validation) (`cookbooks/validation.md`)
-6. [Overview](#doc-docs-readme) (`docs/README.md`)
-7. [Expressions](#doc-docs-expressions) (`docs/expressions.md`)
-8. [Hcl Syntax](#doc-docs-hcl-syntax) (`docs/hcl-syntax.md`)
-9. [Json Conversion](#doc-docs-json-conversion) (`docs/json-conversion.md`)
-10. [Validation](#doc-docs-validation) (`docs/validation.md`)
+1. [Getting Started](#doc-cookbooks-getting-started)
+2. [HCL Syntax](#doc-cookbooks-hcl-syntax)
+3. [Expressions](#doc-cookbooks-expressions)
+4. [JSON Conversion](#doc-cookbooks-json-conversion)
+5. [Validation](#doc-cookbooks-validation)
+6. [Overview](#doc-docs-readme)
+7. [Expressions](#doc-docs-expressions)
+8. [Hcl Syntax](#doc-docs-hcl-syntax)
+9. [Json Conversion](#doc-docs-json-conversion)
+10. [Validation](#doc-docs-validation)
 <a id="doc-cookbooks-getting-started"></a>
 
 # Getting Started
